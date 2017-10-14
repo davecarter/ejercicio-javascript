@@ -6,12 +6,14 @@ const value1 = Number(window.prompt('Introduce operando 1'))
 // Instrucciones para abrir la Consola:
 // https://developers.google.com/web/tools/chrome-devtools/console/?hl=es
 console.log('Operando 1 es:', value1)
+window.document.getElementById("value1").value = value1
 
 // Declaramos la segunda constante llamada VALUE2 y almacenamos el segundo operador
 // que obtenemos del usuario también utilizando la función PROMPT
 const value2 = Number(window.prompt('Introduce operando 2'))
 // Mostramos el valor obtenido por consola
 console.log('Operando 2 es:', value2)
+window.document.getElementById("value2").value = value2
 
 // Declaramos una Función que obtiene 2 parámetros y la almacenamos en una constante llamada SUMA
 const suma = function (a, b) {
